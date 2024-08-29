@@ -21,7 +21,8 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
     
     public static void initfrmMenuPrincipal(){
         frmMenuPrincipal vista = new frmMenuPrincipal();
-        ctrlMenuPrincipal controlador = new ctrlMenuPrincipal(vista);
+        panelRojo panel = new panelRojo();
+        ctrlMenuPrincipal controlador = new ctrlMenuPrincipal(vista,panel);
         
         vista.setVisible(true);
     } 
@@ -47,7 +48,7 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
         jpMenu.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         btnverde.setText("Verde");
-        jpMenu.add(btnverde, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 127, 80, 30));
+        jpMenu.add(btnverde, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, 80, 30));
 
         btnAmarillo.setText("Amarillo");
         jpMenu.add(btnAmarillo, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 171, -1, -1));
@@ -66,7 +67,7 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jpMenu, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jpContenedor, javax.swing.GroupLayout.PREFERRED_SIZE, 564, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jpContenedor, javax.swing.GroupLayout.PREFERRED_SIZE, 472, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -107,6 +108,7 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
+                
                initfrmMenuPrincipal();
             }
         });

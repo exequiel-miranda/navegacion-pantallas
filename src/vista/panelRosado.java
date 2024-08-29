@@ -4,28 +4,19 @@
  */
 package vista;
 
-import controlador.ctrlMenuPrincipal;
-
 /**
  *
  * @author Bryan
  */
-public class panelRojo extends javax.swing.JPanel {
+public class panelRosado extends javax.swing.JPanel {
 
     /**
-     * Creates new form panelRojo
+     * Creates new form panelRosado
      */
-    public panelRojo() {
+    public panelRosado() {
         initComponents();
-        
-        panelRojo panel = this;
-        frmMenuPrincipal vista = new frmMenuPrincipal();
-        
-        ctrlMenuPrincipal controlador = new ctrlMenuPrincipal(vista, panel);
-        
     }
-    
-    
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -35,32 +26,21 @@ public class panelRojo extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        btnMensaje = new javax.swing.JButton();
-
-        setBackground(new java.awt.Color(255, 0, 0));
-
-        btnMensaje.setText("jButton1");
+        setBackground(new java.awt.Color(204, 0, 204));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(287, 287, 287)
-                .addComponent(btnMensaje, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(300, Short.MAX_VALUE))
+            .addGap(0, 700, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(241, Short.MAX_VALUE)
-                .addComponent(btnMensaje, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(199, 199, 199))
+            .addGap(0, 492, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    public javax.swing.JButton btnMensaje;
     // End of variables declaration//GEN-END:variables
 }

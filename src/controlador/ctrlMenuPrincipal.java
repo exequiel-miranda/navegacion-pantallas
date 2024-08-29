@@ -2,6 +2,7 @@ package controlador;
 
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import javax.swing.JOptionPane;
 import vista.frmMenuPrincipal;
 import vista.panelAmarillo;
 import vista.panelRojo;
@@ -12,18 +13,23 @@ public class ctrlMenuPrincipal implements MouseListener{
    
     //1-Mandar a llamar a las demas capas
     frmMenuPrincipal vista;
+    panelRojo Panel;
     
     //2-Constructor
-    public ctrlMenuPrincipal(frmMenuPrincipal Vista){
+    public ctrlMenuPrincipal(frmMenuPrincipal Vista, panelRojo panel){
         this.vista = Vista;
+        this.Panel = panel;
         
         vista.btnverde.addMouseListener(this);
         vista.btnAmarillo.addMouseListener(this);
         vista.btnRojo.addMouseListener(this);
+        Panel.btnMensaje.addMouseListener(this);
     }
 
     @Override
     public void mouseClicked(MouseEvent e) {
+        
+       
       
         if(e.getSource() == vista.btnverde){
             //1-Creo un objeto del panel que quiero mostrar
@@ -57,6 +63,12 @@ public class ctrlMenuPrincipal implements MouseListener{
             
             vista.jpContenedor.revalidate();
             vista.jpContenedor.repaint();
+             //Aqui no me encuentra el btnMensaje
+        }
+        
+          if(e.getSource() == Panel.btnMensaje){
+            JOptionPane.showMessageDialog(Panel, "Hola");
+    
         }
         
         

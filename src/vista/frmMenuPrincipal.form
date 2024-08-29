@@ -26,7 +26,7 @@
           <Group type="102" alignment="0" attributes="0">
               <Component id="jpMenu" min="-2" pref="141" max="-2" attributes="0"/>
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-              <Component id="jpContenedor" min="-2" pref="564" max="-2" attributes="0"/>
+              <Component id="jpContenedor" min="-2" pref="472" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -58,7 +58,7 @@
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="23" y="127" width="80" height="30"/>
+              <AbsoluteConstraints x="30" y="130" width="80" height="30"/>
             </Constraint>
           </Constraints>
         </Component>
@@ -78,7 +78,6 @@
         <Component class="javax.swing.JButton" name="btnRojo">
           <Properties>
             <Property name="text" type="java.lang.String" value="Rojo"/>
-            <Property name="actionCommand" type="java.lang.String" value="Rojo"/>
           </Properties>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
