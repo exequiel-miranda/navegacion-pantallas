@@ -19,6 +19,17 @@ El ID para el panel del menú será: jpMenu</br>
 El ID para el panel donde se mostrarán las pantallas será: jpContenedor</br>
 
 
+Colocaré botones para navegar</br>
+![image](https://github.com/user-attachments/assets/adde7ea7-7965-409e-9e45-04353b562da5)</br>
+Estos tres botones son para navegar a las pantallas,</br>
+y para crear esa pantallas que se mostrarán al centro, debemos crearlas como paneles</br>
+De esta manera:</br>
+![image](https://github.com/user-attachments/assets/563e294f-a2b2-41aa-8331-43f7d87c12c3)
+
+Yo creé los paneles de colores para diferenciar el cambio de pantallas, pero ustedes lo harán con las pantallas que quieren que se muestren</br>
+
+
+
 
 
 
