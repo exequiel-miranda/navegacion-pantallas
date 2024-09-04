@@ -24,9 +24,13 @@ Colocaré botones para navegar</br>
 Estos tres botones son para navegar a las pantallas,</br>
 y para crear esa pantallas que se mostrarán al centro, debemos crearlas como paneles</br>
 De esta manera:</br>
-![image](https://github.com/user-attachments/assets/563e294f-a2b2-41aa-8331-43f7d87c12c3)
+![image](https://github.com/user-attachments/assets/563e294f-a2b2-41aa-8331-43f7d87c12c3)</br>
 
-Yo creé los paneles de colores para diferenciar el cambio de pantallas, pero ustedes lo harán con las pantallas que quieren que se muestren</br>
+Yo creé los tres paneles de colores para diferenciar el cambio de pantallas, pero ustedes lo harán con las pantallas que quieren que se muestren</br>
+
+De tal manera que esos tres paneles de colores quiero que se carguen en el formulario principal (donde tendgo el menú)</br>
+![image](https://github.com/user-attachments/assets/a884f518-f928-4053-9dc0-5cccaa513f3c)</br>
+
 
 
 
