@@ -1,8 +1,7 @@
-Explicación: </br>
-
 El proyecto explica la navegación entre pantallas ocupando un formulario el cual contiene un menú lateral y las pantallas se colocan al centro</br>
 ![image](https://github.com/user-attachments/assets/ef3bffc4-f6a6-4cc6-8e6c-d5d2d93af252)</br>
 
+## Explicación: </br>
 El proyecto, está construido con MVC</br>
 ![image](https://github.com/user-attachments/assets/2029bb6f-7f33-4ac9-b9b7-c807ef0f42fd)</br>
 
